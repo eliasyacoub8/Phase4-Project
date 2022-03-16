@@ -1,0 +1,48 @@
+<app-header></app-header>
+
+<div class="card-top content container-fluid">
+    <div class="items">
+        <div class="item">
+            <a (click)= "filterbyCategory('')"> 
+            <img style="border-top:5px;" src="assets/Images/allproducts.png">
+             <h5>All Items</h5>
+            </a>
+        </div>
+        <div class="item">
+            <a (click)= "filterbyCategory('beverages')">
+            <img src="assets/Images/Beverages.png">
+             <h5>Beverages</h5> 
+            </a>
+        </div>
+        <div class="item">
+            <a (click)= "filterbyCategory('vegetables')">
+            <img src="assets/Images/vegetables&fruits.png">
+            <h5>Fruits and Vegetables</h5>
+          </a>
+        </div>
+        <div class="item">
+            <a (click)= "filterbyCategory('beef')">
+                <img src="assets/Images/steak.png">
+                <h5>Beef</h5>   
+            </a>
+        </div>
+    </div>
+
+</div>
+
+<div class="card">
+<div class="row">
+    <ng-container *ngFor = "let item of Categoryfiltered | filter:searchKey:'productname'" >
+        <div class="card col-md-3">
+            <img src= "{{item.image}}"  alt="">
+            <h5 class="card-title">{{item.productname}}</h5>
+            <p class="card-text">{{item.description}}</p>
+            <p><strong>Price: </strong>${{item.price}}</p>
+            <button class="btn btn-primary" (click)= addtoCart(item) >Add to Cart</button>
+          </div>
+          
+
+    </ng-container>
+   
+</div>
+</div> 

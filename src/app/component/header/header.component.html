@@ -1,0 +1,19 @@
+<header>
+    <div class="navbar navbar-dark bg-primary shadw-sm">
+        <div class="navbar-brand align-item-left d-flex">
+            <i style="font-size: 35px" class="fas fa-cart-shopping"></i>
+                <div class="ecommerce-name">
+                   Kitchen Story
+                </div>
+         <div class="search_box">
+            <input type="text" class="search-products" [(ngModel)]= "searchTerm" (keyup)= "search($event)" placeholder="Search for items">
+        </div>
+        <span class="fas fa-magnifying-glass"></span>
+    </div>
+    <button routerLink="/cart" class="btn btn-primary">
+        <i class="fas fa-cart-plus">{{totalNumberofItems}}</i>
+    </button>
+    <button routerLink="/login" class="btn btn-danger mx-2">Logout</button>
+    </div>
+</header>
+

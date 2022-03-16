@@ -1,0 +1,85 @@
+{
+  "productList": [
+    {
+      "id": 1,
+      "image": "assets/Images/banane.jpg",
+      "productname": "Banana",
+      "description": "Bananas are good for your heart health and blood pressure",
+      "price": 2,
+      "category": "vegetables"
+    },
+    {
+      "id": 2,
+      "image": "assets/Images/Bright-Red-Apple.jpg",
+      "productname": "Apples",
+      "description": "An apple a day keeps the doctor away",
+      "price": 1,
+      "category": "vegetables"
+    },
+    {
+      "id": 3,
+      "image": "assets/Images/Watermelon.jpg",
+      "productname": "Watermelon",
+      "description": "You are one in a melon",
+      "price": 7.99,
+      "category": "vegetables"
+    },
+    {
+      "id": 4,
+      "image": "assets/Images/beef.jpg",
+      "productname": "Roast Beef",
+      "description": "You had me at beef",
+      "price": 15.99,
+      "category": "beef"
+    },
+    {
+      "id": 5,
+      "image": "assets/Images/chicken.jpg",
+      "productname": "Chicken",
+      "description": "Broasted chicken",
+      "price": 9.5,
+      "category": "beef"
+    },
+    {
+      "id": 6,
+      "image": "assets/Images/softdrinks.jpg",
+      "productname": "Soft drinks",
+      "description": "Chilling with a cold drink",
+      "price": 2.5,
+      "category": "beverages"
+    },
+    {
+      "id": 7,
+      "image": "assets/Images/juice.jpg",
+      "productname": "Juice",
+      "description": "Drink juice and stay fresh",
+      "price": 2,
+      "category": "beverages"
+    },
+    {
+      "id": 8,
+      "image": "assets/Images/cucumber.jpg",
+      "productname": "Cucumber",
+      "description": "Stay cool as a cucumber",
+      "price": 0.4,
+      "category": "vegetables"
+    },
+    {
+      "id": 9,
+      "image": "assets/Images/steakbeef.jpg",
+      "productname": "Steak Beef",
+      "description": "You have no idea what's at steak here",
+      "price": 12,
+      "category": "beef"
+    }
+  ],
+  "users": [
+    {
+      "firstName": "Eli",
+      "lastName": "Samuel",
+      "email": "eli@gmail.com",
+      "password": "trypass123",
+      "id": 1
+    }
+  ]
+}

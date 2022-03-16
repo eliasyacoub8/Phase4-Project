@@ -1,0 +1,45 @@
+.ecommerce-name{
+    font-style: normal;
+    font-size:30px;
+    padding-left: 5px;
+}
+
+.search_box{
+    
+    margin-left: 166%;
+    display: flex;
+    justify-content: space-between;
+    
+    
+}
+.search-products{
+    border-radius: 3px;
+    border:3px solid rgb(1, 1, 55);
+    width:220px; 
+    background: rgb(0, 0, 0);
+
+}
+
+.fa-magnifying-glass{
+    position:absolute;
+    z-index:10;
+    right:14%;
+    top: 35%;
+    color:rgb(247, 238, 238);
+    background:black;
+}
+.fa-cart-plus{
+    font-size: 35px;
+    font-weight: bold;
+   
+
+}
+::placeholder{
+    color:rgb(253, 253, 253);
+    opacity:1;
+    font-weight: lighter;
+}
+input{
+    color:whitesmoke;
+    font-weight: bold;
+}

@@ -1,0 +1,40 @@
+.cart{
+    height:40vh;
+    margin: 25px;
+    padding: 25px;
+}
+
+.center{
+
+    position:absolute;
+    top:40%;
+    left:40%;
+    text-align: center;
+
+}
+.center img{
+    width:80px;
+}
+h3, h5
+{
+    font-weight: 400;
+}
+.card-table{
+
+    position:relative;
+    display:flex;
+    flex-direction: column;
+    min-width: none;
+    word-wrap: break-word;
+    background-color: white;
+    background-clip: border-box;
+    border:1px solid rgb(85, 82, 82);
+    border-radius: .25rem;
+}
+.center .btn{
+    font-size: 16px;
+    margin-top: 20px;
+    font-weight: 300;
+    padding:12px 72px;
+    border-radius: 3px;
+}
